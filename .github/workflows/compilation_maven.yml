@@ -25,6 +25,9 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
+      - name: Donner permission d'execution
+        run: chmod +x ./mvnw
+
       - name: Build, tests et analyse SonarCloud
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
