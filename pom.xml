@@ -24,6 +24,10 @@
         <mockito.version>5.14.2</mockito.version>
     </properties>
 
+    <!-- SonarQube configuration -->
+    <sonar.organization>atelier-sonarCloud</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
     <dependencies>
         <!-- JUnit 6 (toujours appelé "Jupiter" pour l'API @Test/@ParameterizedTest/...) : API de tests + moteur d'exécution -->
         <dependency>
