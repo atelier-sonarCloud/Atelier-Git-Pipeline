@@ -25,7 +25,7 @@
     </properties>
 
     <!-- SonarQube configuration -->
-    <sonar.organization>atelier-sonarCloud</sonar.organization>
+    <sonar.organization>atelier-sonarcloud</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
     <dependencies>
